@@ -1715,7 +1715,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.009335599
-  m_Center: {x: 3.877409e-26, y: 0.008774099, z: -0.00014289092}
+  m_Center: {x: 1.2924697e-25, y: 0.010747256, z: -0.0004183082}
 --- !u!1 &3554212221667991779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2159,7 @@ GameObject:
   - component: {fileID: 1418722563262208817}
   - component: {fileID: 7053381467715269097}
   - component: {fileID: 133329157401323504}
+  - component: {fileID: 3508180142471504010}
   m_Layer: 0
   m_Name: Jammo_Player
   m_TagString: Untagged
@@ -2215,10 +2216,10 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185506356242495088}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
   m_Controller: {fileID: 9100000, guid: 535d24752e3d6444da644e79e90ec2ca, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -2261,6 +2262,51 @@ MonoBehaviour:
   - {r: 0.72790754, g: 2, b: 0.26178014, a: 1}
   - {r: 2, g: 0.87978274, b: 0.26178014, a: 1}
   eyeState: 0
+--- !u!114 &3508180142471504010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185506356242495088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2310d231e6dba2f43b5be63f16caaa29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatedBones:
+  - {fileID: 5061649417662801787}
+  - {fileID: 2089753966436503949}
+  - {fileID: 1076849092850812664}
+  - {fileID: 7755869123570369063}
+  - {fileID: 7865317995368274610}
+  - {fileID: 8262045200184854264}
+  - {fileID: 8264139518652399402}
+  - {fileID: 8286035604403892375}
+  - {fileID: 3227969841649565553}
+  - {fileID: 7110005788493390347}
+  - {fileID: 501168148360134349}
+  - {fileID: 7993636082760198513}
+  - {fileID: 8707962141826886181}
+  - {fileID: 8793235746865983797}
+  - {fileID: 8793235746865983797}
+  _physicalBones:
+  - {fileID: 5336296079025675164}
+  - {fileID: 2869713337576805390}
+  - {fileID: 8453767417177337937}
+  - {fileID: 3635199563901428112}
+  - {fileID: 339706564964872777}
+  - {fileID: 4202706168781961829}
+  - {fileID: 8932900711556727513}
+  - {fileID: 6128804637134556231}
+  - {fileID: 6055801423263311964}
+  - {fileID: 5361046007887318761}
+  - {fileID: 3258902252520709200}
+  - {fileID: 1082824107113650616}
+  - {fileID: 6804478875307601761}
+  - {fileID: 7509423442506989168}
+  - {fileID: 6389720145826842031}
+  blendFactor: 0.5
 --- !u!1 &5207699719765496806
 GameObject:
   m_ObjectHideFlags: 0
