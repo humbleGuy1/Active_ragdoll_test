@@ -38,7 +38,6 @@ public class MovementInput : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		anim = this.GetComponent<Animator> ();
 		cam = Camera.main;
 		controller = this.GetComponent<CharacterController> ();
 	}
